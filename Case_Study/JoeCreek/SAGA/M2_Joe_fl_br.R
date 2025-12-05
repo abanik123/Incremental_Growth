@@ -9,7 +9,7 @@ library(abind)
 #' Read in the data. 
 #------------------------------------------------------------------------#
 
-cap_data <- read.csv("JoeCreek_capture_full.csv")
+cap_data <- read.csv("JoeCreek_capture_full_wuk_sex.csv")
 dd_fl <- read.csv("JoeCreek_forklength_full.csv")
 b_fl <- read.csv("JoeCreek_breeding_full_wuk_sex.csv")
 
@@ -346,3 +346,4 @@ end.time <- Sys.time()
 
 time.taken <- end.time - start.time
 time.taken
+
