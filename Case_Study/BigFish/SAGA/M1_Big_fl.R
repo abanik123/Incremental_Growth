@@ -8,7 +8,7 @@ library(abind)
 
 #' Read in the data. 
 #------------------------------------------------------------------------#
-cap_data <- read.csv("Bigfish_capture_full.csv")
+cap_data <- read.csv("Bigfish_capture_full_wuk_sex.csv")
 dd_fl <- read.csv("Bigfish_forklength_full.csv")
 
 y <- cap_data %>%
@@ -290,4 +290,5 @@ write.csv(f, file = "Big_m1_length_s.csv")
 end.time <- Sys.time()
 
 time.taken <- end.time - start.time
+
 time.taken
